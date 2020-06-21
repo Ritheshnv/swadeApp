@@ -10,6 +10,7 @@ function App() {
       <ButtonAppBar/>
       <RecipeReviewCard/>
       <FooterPage/>
+      {/* <RecipeReviewCard/> */}
     </div>
   );
 }
