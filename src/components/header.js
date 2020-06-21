@@ -23,11 +23,10 @@ export default function ButtonAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="static" style={{backgroundColor: 'green'}}>
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
             Indian Products
-            <span style={{color:'red', fontSize: '18px'}}>(Initial release, info upto Home Appliances only!)</span>
           </Typography>
           <About/>
           <Contact/>

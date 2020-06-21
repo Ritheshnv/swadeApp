@@ -87,7 +87,7 @@ export default function RecipeReviewCard() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}><strong>Toileteries(Hair, Face, Bath and Body, Dental, Deo, Shaving, Feminine Hygenie)</strong></Typography>
+          <Typography className={classes.heading}><strong>Toileteries</strong></Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
         <Grid item sm={12}>
@@ -638,30 +638,6 @@ export default function RecipeReviewCard() {
         >
           <Typography className={classes.heading}><strong>Mobile Applications</strong></Typography>
         </ExpansionPanelSummary>
-        <ExpansionPanelDetails>
-      <List>
-        <ListItem>
-        <strong>Travel</strong> - MakeMyTrip, IRCTC, Goibibo, Yatra
-        </ListItem>
-        <ListItem>
-        <strong>Entertainment</strong> - Gaana, BookMyShow, Wynk
-        </ListItem>
-        <ListItem>
-        <strong>Payment</strong> - BhimUPI, Paytm, Freecharge, Mobikwik, Phonepe
-        </ListItem>
-        <ListItem>
-        <strong>Gaming</strong> - Teen Patti, Car Run
-        </ListItem>
-        <ListItem>
-        <strong>E-Commerce</strong> - Flipkart, Snapdeal, InfyBeam, Myntra
-        </ListItem>
-        <ListItem>
-        <strong>Messaging</strong> - Hike
-        </ListItem>
-        <ListItem>
-        <strong>Utilities</strong> - JustDial, Quikr, OLX
-        </ListItem>
-        <ListItem>
         <div>
       <Link onClick={handleClickOpen} style={{cursor:'pointer'}}>
       Click here to see Chinese Apps and their Alternatives
@@ -695,8 +671,277 @@ export default function RecipeReviewCard() {
         </DialogActions>
       </Dialog>
 </div>
-        </ListItem>
-      </List>
+        <ExpansionPanelDetails>
+        
+        <Grid item sm={12}>
+      
+      <CardContent>
+      <Grid container spacing={1}>
+      <Grid container item sm={12} spacing={2}>
+      <Grid item sm={4}>
+      <Card className={classes.card}>
+      <CardHeader
+        title="Travel"
+      />
+<div>
+<List className={classes.root}>
+<ListItem alignItems="flex-start">
+        <ListItemText
+          primary={<strong></strong>}
+          secondary={
+            <React.Fragment>
+              <Typography
+                component="span"
+                variant="body2"
+                className={classes.inline}
+                color="textPrimary"
+              >
+                MakeMyTrip, IRCTC, Goibibo, Yatra, Clear Trip
+              </Typography>
+            </React.Fragment>
+          }
+        />
+      </ListItem>
+
+</List>
+</div>
+            </Card>
+        </Grid>
+        <Grid item sm={4}>
+        <Card className={classes.card}>
+        <CardHeader
+        title="Entertainment"
+      />
+<div>
+<List className={classes.root}>
+<ListItem alignItems="flex-start">
+        <ListItemText
+          primary={<strong></strong>}
+          secondary={
+            <React.Fragment>
+              <Typography
+                component="span"
+                variant="body2"
+                className={classes.inline}
+                color="textPrimary"
+              >
+                Gaana, BookMyShow, Wynk, Hotstar, Saavn
+              </Typography>
+            </React.Fragment>
+          }
+        />
+      </ListItem>
+</List>
+</div>
+            </Card>
+        </Grid>
+        <Grid item sm={4}>
+      <Card className={classes.card}>
+      <CardHeader
+        title="Payment"
+      />
+<div>
+<List className={classes.root}>
+<ListItem alignItems="flex-start">
+        <ListItemText
+          primary={<strong></strong>}
+          secondary={
+            <React.Fragment>
+              <Typography
+                component="span"
+                variant="body2"
+                className={classes.inline}
+                color="textPrimary"
+              >
+                BhimUPI, Paytm, Freecharge, Mobikwik, Phonepe
+              </Typography>
+            </React.Fragment>
+          }
+        />
+      </ListItem>
+</List>
+</div>
+            </Card>
+        </Grid>
+        <Grid item sm={4}>
+      <Card className={classes.card}>
+      <CardHeader
+        title="Gaming"
+      />
+<div>
+<List className={classes.root}>
+<ListItem alignItems="flex-start">
+        <ListItemText
+          primary={<strong></strong>}
+          secondary={
+            <React.Fragment>
+              <Typography
+                component="span"
+                variant="body2"
+                className={classes.inline}
+                color="textPrimary"
+              >
+              Teen Patti, Car Run
+              </Typography>
+            </React.Fragment>
+          }
+        />
+      </ListItem>
+
+</List>
+</div>
+            </Card>
+        </Grid>
+        <Grid item sm={4}>
+      <Card className={classes.card}>
+      <CardHeader
+        title="E-Commerce"
+      />
+<div>
+<List className={classes.root}>
+<ListItem alignItems="flex-start">
+        <ListItemText
+          primary={<strong></strong>}
+          secondary={
+            <React.Fragment>
+              <Typography
+                component="span"
+                variant="body2"
+                className={classes.inline}
+                color="textPrimary"
+              >
+                Flipkart, Snapdeal, InfyBeam, Myntra, Homeshop 18, India Plaza, YeBhi, Naptool, Big Basket
+              </Typography>
+            </React.Fragment>
+          }
+        />
+      </ListItem>
+
+</List>
+</div>
+            </Card>
+        </Grid>
+        <Grid item sm={4}>
+      <Card className={classes.card}>
+      <CardHeader
+        title="Messaging"
+      />
+<div>
+<List className={classes.root}>
+<ListItem alignItems="flex-start">
+        <ListItemText
+          primary={<strong></strong>}
+          secondary={
+            <React.Fragment>
+              <Typography
+                component="span"
+                variant="body2"
+                className={classes.inline}
+                color="textPrimary"
+              >
+                Hike Messenger
+              </Typography>
+            </React.Fragment>
+          }
+        />
+      </ListItem>
+
+</List>
+</div>
+            </Card>
+        </Grid>
+        <Grid item sm={4}>
+      <Card className={classes.card}>
+      <CardHeader
+        title="Utilities"
+      />
+<div>
+<List className={classes.root}>
+<ListItem alignItems="flex-start">
+        <ListItemText
+          primary={<strong></strong>}
+          secondary={
+            <React.Fragment>
+              <Typography
+                component="span"
+                variant="body2"
+                className={classes.inline}
+                color="textPrimary"
+              >
+                JustDial, Quikr, OLX
+              </Typography>
+            </React.Fragment>
+          }
+        />
+      </ListItem>
+  
+</List>
+</div>
+            </Card>
+        </Grid>
+
+        <Grid item sm={4}>
+      <Card className={classes.card}>
+      <CardHeader
+        title="Food Deliveries"
+      />
+<div>
+<List className={classes.root}>
+<ListItem alignItems="flex-start">
+        <ListItemText
+          primary={<strong></strong>}
+          secondary={
+            <React.Fragment>
+              <Typography
+                component="span"
+                variant="body2"
+                className={classes.inline}
+                color="textPrimary"
+              >
+                Zomato, Swiggy, Faasos
+              </Typography>
+            </React.Fragment>
+          }
+        />
+      </ListItem>
+  
+</List>
+</div>
+            </Card>
+        </Grid>
+        <Grid item sm={4}>
+      <Card className={classes.card}>
+      <CardHeader
+        title="Transportation"
+      />
+<div>
+<List className={classes.root}>
+<ListItem alignItems="flex-start">
+        <ListItemText
+          primary={<strong></strong>}
+          secondary={
+            <React.Fragment>
+              <Typography
+                component="span"
+                variant="body2"
+                className={classes.inline}
+                color="textPrimary"
+              >
+                Redbus, Jugnoo, Ola, Zoomcar, Meru cabs
+              </Typography>
+            </React.Fragment>
+          }
+        />
+      </ListItem>
+  
+</List>
+</div>
+            </Card>
+        </Grid>
+        </Grid>
+        </Grid>
+        </CardContent>
+        </Grid>
         </ExpansionPanelDetails>
       </ExpansionPanel>
 
@@ -899,6 +1144,35 @@ export default function RecipeReviewCard() {
                 color="textPrimary"
               >
                 Eureka Forbes, Prestige
+              </Typography>
+            </React.Fragment>
+          }
+        />
+      </ListItem>
+
+</List>
+</div>
+            </Card>
+        </Grid>
+        <Grid item sm={4}>
+      <Card className={classes.card}>
+      <CardHeader
+        title="Water Purifiers"
+      />
+<div>
+<List className={classes.root}>
+<ListItem alignItems="flex-start">
+        <ListItemText
+          primary={<strong></strong>}
+          secondary={
+            <React.Fragment>
+              <Typography
+                component="span"
+                variant="body2"
+                className={classes.inline}
+                color="textPrimary"
+              >
+                Eureka Forbes, Kent, Livpure
               </Typography>
             </React.Fragment>
           }
@@ -1137,13 +1411,13 @@ export default function RecipeReviewCard() {
       <Grid item sm={4}>
       <Card className={classes.card}>
       <CardHeader
-        title="Hair"
+        title="Computers"
       />
 <div>
 <List className={classes.root}>
 <ListItem alignItems="flex-start">
         <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
+          primary={<strong></strong>}
           secondary={
             <React.Fragment>
               <Typography
@@ -1152,29 +1426,7 @@ export default function RecipeReviewCard() {
                 className={classes.inline}
                 color="textPrimary"
               >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
+                HCL, Amar PC, Chirag, Micromax, SPICE, Reliance, Carbonn
               </Typography>
             </React.Fragment>
           }
@@ -1188,13 +1440,13 @@ export default function RecipeReviewCard() {
         <Grid item sm={4}>
         <Card className={classes.card}>
         <CardHeader
-        title="Face"
+        title="Tablets"
       />
 <div>
 <List className={classes.root}>
 <ListItem alignItems="flex-start">
         <ListItemText
-          primary={<strong>Face Washes and Cleansers</strong>}
+          primary={<strong></strong>}
           secondary={
             <React.Fragment>
               <Typography
@@ -1203,256 +1455,13 @@ export default function RecipeReviewCard() {
                 className={classes.inline}
                 color="textPrimary"
               >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
+                Micromax, UbiSlate
               </Typography>
             </React.Fragment>
           }
         />
       </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Face Creams</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Face Moistursers and Sun screens</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Bath and Body"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Dental"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Deodrants"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Feminine Hygenie and Hair Removals"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
+      
 
 </List>
 </div>
@@ -1487,13 +1496,13 @@ export default function RecipeReviewCard() {
       <Grid item sm={4}>
       <Card className={classes.card}>
       <CardHeader
-        title="Hair"
+        title="Watches"
       />
 <div>
 <List className={classes.root}>
 <ListItem alignItems="flex-start">
         <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
+          primary={<strong></strong>}
           secondary={
             <React.Fragment>
               <Typography
@@ -1502,307 +1511,13 @@ export default function RecipeReviewCard() {
                 className={classes.inline}
                 color="textPrimary"
               >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
+                Titan, Sonata, Maxima, Sonata, Prestige, Ajanta, Fastrack
               </Typography>
             </React.Fragment>
           }
         />
       </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-        <Card className={classes.card}>
-        <CardHeader
-        title="Face"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Face Washes and Cleansers</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Face Creams</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Face Moistursers and Sun screens</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Bath and Body"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Dental"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Deodrants"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Feminine Hygenie and Hair Removals"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
+      
 
 </List>
 </div>
@@ -1837,13 +1552,13 @@ export default function RecipeReviewCard() {
       <Grid item sm={4}>
       <Card className={classes.card}>
       <CardHeader
-        title="Hair"
+        title="Clothes Brand"
       />
 <div>
 <List className={classes.root}>
 <ListItem alignItems="flex-start">
         <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
+          primary={<strong></strong>}
           secondary={
             <React.Fragment>
               <Typography
@@ -1852,307 +1567,13 @@ export default function RecipeReviewCard() {
                 className={classes.inline}
                 color="textPrimary"
               >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
+                Cambridge, Park Avenue, Bombay Dyeing, Ruf & Tuf, Trigger Jeans, Lakhani, Shreelathers, Khadim, Khadi, Action, Oxemberg, Killer Jeans, Peter England, Raymonds, Mafatlal, Trend, VIP, Roopa
               </Typography>
             </React.Fragment>
           }
         />
       </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-        <Card className={classes.card}>
-        <CardHeader
-        title="Face"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Face Washes and Cleansers</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Face Creams</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Face Moistursers and Sun screens</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Bath and Body"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Dental"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Deodrants"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Feminine Hygenie and Hair Removals"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
+      
 
 </List>
 </div>
@@ -2186,13 +1607,13 @@ export default function RecipeReviewCard() {
       <Grid item sm={4}>
       <Card className={classes.card}>
       <CardHeader
-        title="Hair"
+        title=""
       />
 <div>
 <List className={classes.root}>
 <ListItem alignItems="flex-start">
         <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
+          primary={<strong></strong>}
           secondary={
             <React.Fragment>
               <Typography
@@ -2201,11 +1622,62 @@ export default function RecipeReviewCard() {
                 className={classes.inline}
                 color="textPrimary"
               >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
+                Khadim, VKC pride, Lunar, Lakhani, Liberty, Action, Paragon, Flash, Carona, Welcome, Rexona, Relaxo-sparks, Lotus, Red Tape, Finix, Wiring, Billy, Carnoba
+              </Typography>
+            </React.Fragment>
+          }
+        />
+      </ListItem>
+      
+
+</List>
+</div>
+            </Card>
+        </Grid>
+        </Grid>
+        </Grid>
+        </CardContent>
+
+
+    </Grid>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+
+
+       {/* -----------------//Panel 2 ----------------------*/}
+    <ExpansionPanel>
+      <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography className={classes.heading}><strong>Food Products</strong></Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+        <Grid item sm={12}>
+      
+      <CardContent>
+      <Grid container spacing={1}>
+      <Grid container item sm={12} spacing={2}>
+      <Grid item sm={4}>
+      <Card className={classes.card}>
+      <CardHeader
+        title="Tea/Coffee"
+      />
+<div>
+<List className={classes.root}>
+<ListItem alignItems="flex-start">
+        <ListItemText
+          primary={<strong>Tea</strong>}
+          secondary={
+            <React.Fragment>
+              <Typography
+                component="span"
+                variant="body2"
+                className={classes.inline}
+                color="textPrimary"
+              >
+                Patanjali, Tata, Bramhaputra, Assam Tea, Girnaar, MR, AVT tea
               </Typography>
             </React.Fragment>
           }
@@ -2214,7 +1686,7 @@ export default function RecipeReviewCard() {
       <Divider variant="inset" component="li" />
       <ListItem alignItems="flex-start">
         <ListItemText
-          primary={<strong>Oils</strong>}
+          primary={<strong>Coffee</strong>}
           secondary={
             <React.Fragment>
               <Typography
@@ -2223,12 +1695,13 @@ export default function RecipeReviewCard() {
                 className={classes.inline}
                 color="textPrimary"
               >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
+                Blue Tokai, Gayathri Coffee works, Black Bazza, Flying Squirrel, The Indian Bean, Panduranga Coffee Works, Halli Berri, Leo Coffee India
               </Typography>
             </React.Fragment>
           }
         />
       </ListItem>
+      
 
 </List>
 </div>
@@ -2237,13 +1710,13 @@ export default function RecipeReviewCard() {
         <Grid item sm={4}>
         <Card className={classes.card}>
         <CardHeader
-        title="Face"
+        title="Cool Drinks"
       />
 <div>
 <List className={classes.root}>
 <ListItem alignItems="flex-start">
         <ListItemText
-          primary={<strong>Face Washes and Cleansers</strong>}
+          primary={<strong></strong>}
           secondary={
             <React.Fragment>
               <Typography
@@ -2252,20 +1725,28 @@ export default function RecipeReviewCard() {
                 className={classes.inline}
                 color="textPrimary"
               >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
+                Rasna, Frootie, Appy, Jumpin, Dabur, Sherbeets, Rooh Afza, Onjuice, Riro, Pingo, Mala Rogers
               </Typography>
             </React.Fragment>
           }
         />
       </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
+      
+
+</List>
+</div>
+            </Card>
+        </Grid>
+        <Grid item sm={4}>
+      <Card className={classes.card}>
+      <CardHeader
+        title="Biscuits and Chocolates"
+      />
+<div>
+<List className={classes.root}>
+<ListItem alignItems="flex-start">
         <ListItemText
-          primary={<strong>Face Creams</strong>}
+          primary={<strong></strong>}
           secondary={
             <React.Fragment>
               <Typography
@@ -2274,25 +1755,7 @@ export default function RecipeReviewCard() {
                 className={classes.inline}
                 color="textPrimary"
               >
-                Patanjali, Ayur, Parachute, Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Face Moistursers and Sun screens</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup
+                Parle, Bakemans, Priya Gold, Amul, Britannia, Patanjali, Anmol, Cremica, Shangrila, Ravalgaon
               </Typography>
             </React.Fragment>
           }
@@ -2306,13 +1769,13 @@ export default function RecipeReviewCard() {
         <Grid item sm={4}>
       <Card className={classes.card}>
       <CardHeader
-        title="Bath and Body"
+        title="Water"
       />
 <div>
 <List className={classes.root}>
 <ListItem alignItems="flex-start">
         <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
+          primary={<strong></strong>}
           secondary={
             <React.Fragment>
               <Typography
@@ -2321,29 +1784,7 @@ export default function RecipeReviewCard() {
                 className={classes.inline}
                 color="textPrimary"
               >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
+                Bisleri, Ganga, Himalaya, Kingfisher, Railneer, Yes
               </Typography>
             </React.Fragment>
           }
@@ -2357,13 +1798,13 @@ export default function RecipeReviewCard() {
         <Grid item sm={4}>
       <Card className={classes.card}>
       <CardHeader
-        title="Dental"
+        title="Milk and Milk products"
       />
 <div>
 <List className={classes.root}>
 <ListItem alignItems="flex-start">
         <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
+          primary={<strong></strong>}
           secondary={
             <React.Fragment>
               <Typography
@@ -2372,29 +1813,7 @@ export default function RecipeReviewCard() {
                 className={classes.inline}
                 color="textPrimary"
               >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
+                Nandini, Amul, Mother Dairy, Tirumala
               </Typography>
             </React.Fragment>
           }
@@ -2408,13 +1827,13 @@ export default function RecipeReviewCard() {
         <Grid item sm={4}>
       <Card className={classes.card}>
       <CardHeader
-        title="Deodrants"
+        title="Salt"
       />
 <div>
 <List className={classes.root}>
 <ListItem alignItems="flex-start">
         <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
+          primary={<strong></strong>}
           secondary={
             <React.Fragment>
               <Typography
@@ -2423,29 +1842,7 @@ export default function RecipeReviewCard() {
                 className={classes.inline}
                 color="textPrimary"
               >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
+                Tata, Ankur, Patanjali
               </Typography>
             </React.Fragment>
           }
@@ -2459,13 +1856,13 @@ export default function RecipeReviewCard() {
         <Grid item sm={4}>
       <Card className={classes.card}>
       <CardHeader
-        title="Feminine Hygenie and Hair Removals"
+        title="Ice creams"
       />
 <div>
 <List className={classes.root}>
 <ListItem alignItems="flex-start">
         <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
+          primary={<strong></strong>}
           secondary={
             <React.Fragment>
               <Typography
@@ -2474,20 +1871,27 @@ export default function RecipeReviewCard() {
                 className={classes.inline}
                 color="textPrimary"
               >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
+                Amul, Arun, Nandini, Vadilal
               </Typography>
             </React.Fragment>
           }
         />
       </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
+
+</List>
+</div>
+            </Card>
+        </Grid>
+        <Grid item sm={4}>
+      <Card className={classes.card}>
+      <CardHeader
+        title="Ketchup and Jam"
+      />
+<div>
+<List className={classes.root}>
+<ListItem alignItems="flex-start">
         <ListItemText
-          primary={<strong>Oils</strong>}
+          primary={<strong></strong>}
           secondary={
             <React.Fragment>
               <Typography
@@ -2496,7 +1900,152 @@ export default function RecipeReviewCard() {
                 className={classes.inline}
                 color="textPrimary"
               >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
+                Patanjali, Indana, Priya, Rasna
+              </Typography>
+            </React.Fragment>
+          }
+        />
+      </ListItem>
+
+</List>
+</div>
+            </Card>
+        </Grid>
+        <Grid item sm={4}>
+      <Card className={classes.card}>
+      <CardHeader
+        title="Snacks"
+      />
+<div>
+<List className={classes.root}>
+<ListItem alignItems="flex-start">
+        <ListItemText
+          primary={<strong></strong>}
+          secondary={
+            <React.Fragment>
+              <Typography
+                component="span"
+                variant="body2"
+                className={classes.inline}
+                color="textPrimary"
+              >
+                Haldirams, Bikaji, AOne, Bikano Namkeen
+              </Typography>
+            </React.Fragment>
+          }
+        />
+      </ListItem>
+
+</List>
+</div>
+            </Card>
+        </Grid>
+        <Grid item sm={4}>
+      <Card className={classes.card}>
+      <CardHeader
+        title="Cooking Oil and ghee"
+      />
+<div>
+<List className={classes.root}>
+<ListItem alignItems="flex-start">
+        <ListItemText
+          primary={<strong></strong>}
+          secondary={
+            <React.Fragment>
+              <Typography
+                component="span"
+                variant="body2"
+                className={classes.inline}
+                color="textPrimary"
+              >
+                Patanjali, Sunpure, GRB Ghee, Amul Ghee, Param Ghee, Sunflower, Ruchi, Gold winner, Cardia life, Fedora, Orysa Refined Rice brand oil, Palm Super, Nandini Ghee
+              </Typography>
+            </React.Fragment>
+          }
+        />
+      </ListItem>
+
+      
+
+</List>
+</div>
+            </Card>
+        </Grid>
+        <Grid item sm={4}>
+      <Card className={classes.card}>
+      <CardHeader
+        title="Milk Drinks"
+      />
+<div>
+<List className={classes.root}>
+<ListItem alignItems="flex-start">
+        <ListItemText
+          primary={<strong></strong>}
+          secondary={
+            <React.Fragment>
+              <Typography
+                component="span"
+                variant="body2"
+                className={classes.inline}
+                color="textPrimary"
+              >
+                Chyavan Prash, Amrit, Rasayan, Badaam Pak, Nutramul, Maltova
+              </Typography>
+            </React.Fragment>
+          }
+        />
+      </ListItem>
+
+      
+
+</List>
+</div>
+            </Card>
+        </Grid>
+        </Grid>
+        </Grid>
+        </CardContent>
+        
+
+    </Grid>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+
+
+       {/* -----------------//Panel 2 ----------------------*/}
+    <ExpansionPanel>
+      <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography className={classes.heading}><strong>Indian Pharamceuticals</strong></Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+        <Grid item sm={12}>
+      
+      <CardContent>
+      <Grid container spacing={1}>
+      <Grid container item sm={12} spacing={2}>
+      <Grid item sm={4}>
+      <Card className={classes.card}>
+      <CardHeader
+        title="Pharmas"
+      />
+<div>
+<List className={classes.root}>
+<ListItem alignItems="flex-start">
+        <ListItemText
+          primary={<strong></strong>}
+          secondary={
+            <React.Fragment>
+              <Typography
+                component="span"
+                variant="body2"
+                className={classes.inline}
+                color="textPrimary"
+              >
+                Sun Pharma, Dr.Reddy's Laboratories, Divi's Laboratories, Cipla, Aurobindo Pharma, Torrent Pharamceuticals, Lupin Ltd, Zydus Cadila health care, Abbott India, Alkerm Laboratories
               </Typography>
             </React.Fragment>
           }
@@ -2524,7 +2073,7 @@ export default function RecipeReviewCard() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}><strong>Tea/Coffee, Milk Products, Food Products</strong></Typography>
+          <Typography className={classes.heading}><strong>Cosmetics Companies</strong></Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
         <Grid item sm={12}>
@@ -2535,13 +2084,13 @@ export default function RecipeReviewCard() {
       <Grid item sm={4}>
       <Card className={classes.card}>
       <CardHeader
-        title="Hair"
+        title="Cosmetics"
       />
 <div>
 <List className={classes.root}>
 <ListItem alignItems="flex-start">
         <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
+          primary={<strong></strong>}
           secondary={
             <React.Fragment>
               <Typography
@@ -2550,1005 +2099,13 @@ export default function RecipeReviewCard() {
                 className={classes.inline}
                 color="textPrimary"
               >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
+                Lakme, Himalaya, Lotus, Patanjali, Ayur, Shahnaz Husain, Forest Essentials, Elle 18
               </Typography>
             </React.Fragment>
           }
         />
       </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-        <Card className={classes.card}>
-        <CardHeader
-        title="Face"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Face Washes and Cleansers</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Face Creams</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Face Moistursers and Sun screens</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Bath and Body"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Dental"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Deodrants"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Feminine Hygenie and Hair Removals"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        </Grid>
-        </Grid>
-        </CardContent>
-
-
-    </Grid>
-        </ExpansionPanelDetails>
-      </ExpansionPanel>
-
-
-       {/* -----------------//Panel 2 ----------------------*/}
-    <ExpansionPanel>
-      <ExpansionPanelSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <Typography className={classes.heading}><strong>Medicines</strong></Typography>
-        </ExpansionPanelSummary>
-        <ExpansionPanelDetails>
-        <Grid item sm={12}>
       
-      <CardContent>
-      <Grid container spacing={1}>
-      <Grid container item sm={12} spacing={2}>
-      <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Hair"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-        <Card className={classes.card}>
-        <CardHeader
-        title="Face"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Face Washes and Cleansers</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Face Creams</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Face Moistursers and Sun screens</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Bath and Body"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Dental"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Deodrants"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Feminine Hygenie and Hair Removals"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        </Grid>
-        </Grid>
-        </CardContent>
-
-
-    </Grid>
-        </ExpansionPanelDetails>
-      </ExpansionPanel>
-
-
-       {/* -----------------//Panel 2 ----------------------*/}
-    <ExpansionPanel>
-      <ExpansionPanelSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <Typography className={classes.heading}><strong>Cosmetics</strong></Typography>
-        </ExpansionPanelSummary>
-        <ExpansionPanelDetails>
-        <Grid item sm={12}>
-      
-      <CardContent>
-      <Grid container spacing={1}>
-      <Grid container item sm={12} spacing={2}>
-      <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Hair"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-        <Card className={classes.card}>
-        <CardHeader
-        title="Face"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Face Washes and Cleansers</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Face Creams</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Face Moistursers and Sun screens</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Bath and Body"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Dental"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Deodrants"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Feminine Hygenie and Hair Removals"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
 
 </List>
 </div>
@@ -3583,13 +2140,13 @@ export default function RecipeReviewCard() {
       <Grid item sm={4}>
       <Card className={classes.card}>
       <CardHeader
-        title="Hair"
+        title="Pen/Pencils"
       />
 <div>
 <List className={classes.root}>
 <ListItem alignItems="flex-start">
         <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
+          primary={<strong></strong>}
           secondary={
             <React.Fragment>
               <Typography
@@ -3598,34 +2155,13 @@ export default function RecipeReviewCard() {
                 className={classes.inline}
                 color="textPrimary"
               >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
+                Reynolds, Sharp, Cello, Wilson, Today, Nataraj, Camel, Apsara, Montex, Linc, Ambassador, Stic, Sangeetha, Luxor, Kingson
               </Typography>
             </React.Fragment>
           }
         />
       </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
+      
 
 </List>
 </div>
@@ -3634,13 +2170,13 @@ export default function RecipeReviewCard() {
         <Grid item sm={4}>
         <Card className={classes.card}>
         <CardHeader
-        title="Face"
+        title="Books"
       />
 <div>
 <List className={classes.root}>
 <ListItem alignItems="flex-start">
         <ListItemText
-          primary={<strong>Face Washes and Cleansers</strong>}
+          primary={<strong></strong>}
           secondary={
             <React.Fragment>
               <Typography
@@ -3649,270 +2185,104 @@ export default function RecipeReviewCard() {
                 className={classes.inline}
                 color="textPrimary"
               >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
+                Navneeth, Vidya, ITC classmates, JK paper, Repro, Rabbit Stationery
               </Typography>
             </React.Fragment>
           }
         />
       </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Face Creams</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Face Moistursers and Sun screens</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
 </List>
 </div>
             </Card>
         </Grid>
-        <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Bath and Body"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Dental"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Deodrants"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
-        <Grid item sm={4}>
-      <Card className={classes.card}>
-      <CardHeader
-        title="Feminine Hygenie and Hair Removals"
-      />
-<div>
-<List className={classes.root}>
-<ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Shampoos and Conditioners</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                <a href="https://www.patanjaliayurved.net/category/shampoo/31">Patanjali</a>, 
-                <a href="#">Himalaya</a>, 
-                Ayur, 
-                Khadi,
-                Trichup
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemText
-          primary={<strong>Oils</strong>}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="span"
-                variant="body2"
-                className={classes.inline}
-                color="textPrimary"
-              >
-                Patanjali, Ayur, Parachute, Trichup, Lotus, Himalaya, Bajaj Almond, Dabur Amla, Indulekha
-              </Typography>
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-
-</List>
-</div>
-            </Card>
-        </Grid>
+        
         </Grid>
         </Grid>
         </CardContent>
-
-
     </Grid>
         </ExpansionPanelDetails>
       </ExpansionPanel>
 
+       {/* -----------------//Panel 2 ----------------------*/}
+    <ExpansionPanel>
+      <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography className={classes.heading}><strong>Restaurants and Cafes</strong></Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+        <Grid item sm={12}>
+      
+      <CardContent>
+      <Grid container spacing={1}>
+      <Grid container item sm={12} spacing={2}>
+      <Grid item sm={4}>
+      <Card className={classes.card}>
+      <CardHeader
+        title="Restaurants"
+      />
+<div>
+<List className={classes.root}>
+<ListItem alignItems="flex-start">
+        <ListItemText
+          primary={<strong></strong>}
+          secondary={
+            <React.Fragment>
+              <Typography
+                component="span"
+                variant="body2"
+                className={classes.inline}
+                color="textPrimary"
+              >
+                Saravana Bhavan, Star Biriyani, Paradise, MTR, Nandini, Dosa Plaza, Haldirams, Goli Vapapav, Darshini (Note - varies on region)
+              </Typography>
+            </React.Fragment>
+          }
+        />
+      </ListItem>
+      
+
+</List>
+</div>
+            </Card>
+        </Grid>
+        <Grid item sm={4}>
+        <Card className={classes.card}>
+        <CardHeader
+        title="Cafes"
+      />
+<div>
+<List className={classes.root}>
+<ListItem alignItems="flex-start">
+        <ListItemText
+          primary={<strong></strong>}
+          secondary={
+            <React.Fragment>
+              <Typography
+                component="span"
+                variant="body2"
+                className={classes.inline}
+                color="textPrimary"
+              >
+                Cafe Coffee Day, Coffee Roaster, Blue Tokai, KC Roaster
+              </Typography>
+            </React.Fragment>
+          }
+        />
+      </ListItem>
+</List>
+</div>
+            </Card>
+        </Grid>
+        
+        </Grid>
+        </Grid>
+        </CardContent>
+    </Grid>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
 
 
     </Container>
