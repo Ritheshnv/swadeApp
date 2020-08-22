@@ -26,6 +26,19 @@ import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 
 
+import clsx from 'clsx';
+import CardMedia from '@material-ui/core/CardMedia';
+import CardActions from '@material-ui/core/CardActions';
+import Collapse from '@material-ui/core/Collapse';
+import Avatar from '@material-ui/core/Avatar';
+import IconButton from '@material-ui/core/IconButton';
+import FavoriteIcon from '@material-ui/icons/Favorite';
+import ShareIcon from '@material-ui/icons/Share';
+import MoreVertIcon from '@material-ui/icons/MoreVert';
+
+import toilet from '../assets/toileteries.jpg'
+
+
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -41,15 +54,34 @@ const useStyles = makeStyles(theme => ({
       inline: {
         display: 'inline',
       },
+  media: {
+    height: 0,
+    paddingTop: '56.25%', // 16:9
+  },
+  expand: {
+    transform: 'rotate(0deg)',
+    marginLeft: 'auto',
+    transition: theme.transitions.create('transform', {
+      duration: theme.transitions.duration.shortest,
+    }),
+  },
+  expandOpen: {
+    transform: 'rotate(180deg)',
+  },
   avatar: {
     backgroundColor: red[500],
-  },
+  }
 }));
 
 export default function RecipeReviewCard() {
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
   const [openMobile, setOpenMobile] = React.useState(false);
+  const [expanded, setExpanded] = React.useState(false);
+
+  const handleExpandClick = () => {
+    setExpanded(!expanded);
+  };
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -81,16 +113,40 @@ export default function RecipeReviewCard() {
       </Card>
       </Grid>
         </Grid>
-<ExpansionPanel>
-        <ExpansionPanelSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
+
+
+
+
+
+
+
+
+
+
+
+
+        <Card className={classes.root}>
+      <CardMedia
+        className={classes.media}
+        image={toilet}
+        title="Paella dish"
+        style={{paddingTop: '110px'}}
+      />
+      <CardActions disableSpacing style={{display:'contents'}}>
+    
+        <IconButton
+          className={clsx(classes.expand, {
+            [classes.expandOpen]: expanded,
+          })}
+          onClick={handleExpandClick}
+          aria-expanded={expanded}
+          aria-label="show more"
         >
-          <Typography className={classes.heading}><strong>Toileteries</strong></Typography>
-        </ExpansionPanelSummary>
-        <ExpansionPanelDetails>
-        <Grid item sm={12}>
+          <ExpandMoreIcon />
+        </IconButton>
+      </CardActions>
+      <Collapse in={expanded} timeout="auto" unmountOnExit>
+      <Grid item sm={12}>
       
       <CardContent>
       <Grid container spacing={1}>
@@ -442,8 +498,46 @@ export default function RecipeReviewCard() {
 
 
     </Grid>
-        </ExpansionPanelDetails>
-      </ExpansionPanel>
+      </Collapse>
+    </Card>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       
       {/* -----------------//Panel 2 ----------------------*/}
     <ExpansionPanel>

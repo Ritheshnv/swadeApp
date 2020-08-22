@@ -12,6 +12,7 @@ function App() {
       <HomeCarousel/>
       <RecipeReviewCard/>
       <FooterPage/>
+      {/* <RecipeReviewCard/> */}
     </div>
   );
 }
