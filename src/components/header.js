@@ -5,6 +5,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Contact from './contact';
 import About from './about';
+import MenuIcon from '@material-ui/icons/Menu'
 
 import Grid from '@material-ui/core/Grid';
 import Switch from '@material-ui/core/Switch';
@@ -37,11 +38,12 @@ export default function ButtonAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static" style={{backgroundColor: 'green'}}>
+      <AppBar position="static" style={{backgroundColor: 'grey'}}>
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            Indian Products
+            <div style={{fontFamily:'sans-serif', fontSize: '40px', float:'left'}}><span style={{backgroundColor: 'orange'}}>Make </span><span style={{backgroundColor: 'white', color:'blue'}}>It </span><span style={{backgroundColor: 'green'}}>India </span></div>
           </Typography>
+          <MenuIcon />
           <Grid item>English</Grid>
           <Grid item>
             <Switch color='primary' checked={state.checkedB} onChange={handleChange} name="checkedB" />
